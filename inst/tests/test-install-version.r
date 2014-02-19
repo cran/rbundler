@@ -97,3 +97,20 @@ test_that('install_version throws an exception if a package has already been ins
   expect_error(install_version(dependency$name, dependency$version, '>'))
 
 })
+
+test_that('correct package is returned for mac, windows, and source package versions', {
+
+  library('tools')
+
+  expect_package_extension <- function(type, expected_extension) {
+    available_versions <- find_available_versions(dependency$name, type=type)
+    extension <- file_ext(available_versions$url[1])
+    expect_equal(extension, expected_extension)
+  }
+
+  expect_package_extension(type='source', expected_extension='gz')
+  expect_package_extension(type='mac.binary', expected_extension='tgz')
+  expect_package_extension(type='win.binary', expected_extension='zip')
+
+}) 
+
