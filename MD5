@@ -1,6 +1,6 @@
-d9617a7bcc779d4291c768f3e5bb67cc *DESCRIPTION
+dbc138675015e0468708833c5375e8eb *DESCRIPTION
 57b9f047d815036a487cfff62a678c19 *NAMESPACE
-b0b0eeaf2e83487c385efb9576dde79d *NEWS
+79e4d93ba9d5dc97eec052dc1e1172eb *NEWS
 ac17e62bdb7a1febe019cb11a78926ce *R/bundle.r
 f14bc4780ef0b0be3889f4bc09df0efa *R/create_mock_packages.r
 ccc98c088c8a1084b6ef8ef7d6e97d49 *R/create_package.r
@@ -26,7 +26,7 @@ ae274fe9ae56ac371c5344e975c58fb3 *man/install_version.Rd
 87b1a0a2c60ef70213760e8fa0b80056 *man/update_renviron_file.Rd
 237737f1b7e6e0fdaa6e1cd71abea05b *man/validate_compare.Rd
 6c37b1dcee9cae0fa899d58ab2310227 *man/validate_installed_package.Rd
-2ee5e2f2f0ac52e66c93fa202a3e57d2 *tests/test-all.R
+cc1f172d231fc45a850ff95638b0b4c9 *tests/test-all.R
 33853602d97a614894f6bb1d1b1939ec *tests/testthat/test-bundle.r
 073a6423cc331943bf17bff9b2db4e71 *tests/testthat/test-create-package-description.r
 0d1fa453ca90649c6e6bfb4f66e32681 *tests/testthat/test-install-version.r
